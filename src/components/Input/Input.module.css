@@ -1,0 +1,20 @@
+.input {
+    width: 450px;
+
+    padding: 10px 20px;
+
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    transition: border .2s ease-in-out;
+}
+
+.input::placeholder {
+    color: #777;
+}
+
+.input:focus,
+.inpit:hover {
+    outline: none;
+    border: 1px solid #000;
+}
